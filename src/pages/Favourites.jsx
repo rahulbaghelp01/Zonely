@@ -9,17 +9,29 @@ export default function Favourites(){
 
     
 
-    return ( <div>
+    return ( <div className="home bg-[var(--background)]">
         <Navbar/>
+        <main>
+            <div className="grid
+            grid-cols-1 
+            md:grid-cols-2
+            lg:grid-cols-3
+            gap-6
+            mt-6
+            w-full">
+
         {
            favourites.map((place)=>{
             return (
-                 <div>
+                
+                 <div >
                     <Cards place={place}/>
                  </div>
             )
            }) 
         }
+        </div>
+        </main>
 
     </div> )
 }
