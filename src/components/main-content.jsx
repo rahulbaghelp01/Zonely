@@ -195,7 +195,7 @@ export function Cards({ place }) {
   return (
     <div className=" bg-[var(--surface)] rounded-xl
     transition-transform duration-300
-        hover:-translate-y-1 cursor-pointer
+        hover:-translate-y-2 cursor-pointer
     ">
       <div className="image-div relative">
         <img
