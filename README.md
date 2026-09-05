@@ -116,6 +116,12 @@ The app will then be running on your local dev server.
 
 ---
 
+## A Note on the Data
+
+This project was built around consuming a real API, but the Google Places demo API I used doesn't return image data for restaurants. Rather than let the frontend look broken or empty without photos, I mocked image data using objects shaped exactly like what the real API returns, just with placeholder image values swapped in. Everything else — restaurant details, locations, and the rest of the response — comes from the actual API. It's a workaround for a gap in the free/demo tier, not a shortcut around building real API integration.
+
+---
+
 ## Future Improvements
 
 Some things I'd like to explore going forward:
