@@ -1,4 +1,4 @@
-# Restaurant Finder
+# Zonely
 
 A React-based restaurant discovery app that helps users explore restaurants and save their favourite places.
 
@@ -11,6 +11,12 @@ A React-based restaurant discovery app that helps users explore restaurants and 
 Restaurant Finder is a web app built for exploring restaurants and keeping track of the ones you like. It was one of my early React projects, and it's where I got real practice building a multi-page application, managing global state, working with an external API, and organizing a React codebase into reusable components.
 
 ---
+
+
+
+https://github.com/user-attachments/assets/6733bfea-2466-4437-8f5d-34140217bb20
+
+
 
 ## Features
 
